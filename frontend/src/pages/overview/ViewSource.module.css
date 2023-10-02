@@ -1,0 +1,36 @@
+/* fonts.css */
+@font-face {
+  font-family: "Typewriter"; /* This should match the font name in the font file */
+  src: url("../../assets/Typewriter.ttf") format("truetype"),
+    url("../../assets/THE_JACATRA.otf") format("otf");
+}
+
+@font-face {
+  font-family: "OceansideTypewriter"; /* This should match the font name in the font file */
+  src: url("../../assets/OceansideTypewriter.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "The_JACATRA"; /* This should match the font name in the font file */
+  src: url("../../assets/BackHome.otf") format("OpenType");
+}
+.overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  transition: all 1s ease-in-out;
+}
+.charts-container {
+  height: 93vh;
+}
+.insights-container {
+}
+
+.chart {
+  border: 0.1rem solid #7a7a7a;
+  border-radius: 0.4rem;
+  height: 49.5%;
+  margin: 0.5rem;
+  margin-top: 0;
+  background-color: rgba(255, 255, 255, 0.856);
+}

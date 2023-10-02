@@ -1,0 +1,35 @@
+.list-item {
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  width:470px;
+  height: 60px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.name{
+   margin-right: auto;
+   margin-left: 1rem;
+}
+
+.btn{
+    margin-top: 0.23rem;
+    margin-right: 0.5rem;
+    border: 0.1rem solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.842);
+    border-radius: 0.3rem;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}

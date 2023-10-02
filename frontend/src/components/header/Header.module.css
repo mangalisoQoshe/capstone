@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6vh;
+  padding: 1rem;
+  background-color: rgba(59, 104, 230, 0.301);
+}
+
+.date {
+ 
+}
+
+.sidebar-btn {
+  border-style: none;
+  background-color: transparent;
+  border: 0.12rem solid rgb(0, 136, 144);
+  border-radius: 0.4rem;
+  display: flex;
+}
+
+.sidebar-btn:hover {
+  cursor: pointer;
+  border: 0.12rem solid rgb(212, 29, 24);
+}
+
+.dropdown-menu {
+  position: absolute;
+  z-index: 100;
+  right:2vw;
+  top: 5rem;
+  border: 0.12rem solid #7a7a7a;
+  border-radius: 0.4rem;
+  width: 200px;
+  background-color: #ecf1ed ;
+
+}
+
+.dropdown-menu.active{
+    display: block;
+}
+
+.dropdown-menu.inactive{
+    display: none;
+}
+
+.log-out{
+  cursor: pointer;
+  border: 0.1rem solid rgb(0, 0, 0);
+  border-radius: 0.4rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin-left: 2.5rem;
+  margin-block: 0.5rem;
+  font-weight: bold;
+}
+
+.log-out:hover {
+  border-color: green;
+  color: white;
+  background-color: #212a3e;
+  border: 0.1rem solid rgb(0, 0, 0);
+}
+
+.marquee {
+width: 70%;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+@media screen and (min-width: 1367px) {
+  .marquee {
+    width: 80%;
+    font-size: 25px;
+  
+    }
+}

@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Major Mono Display', monospace;
+    /* background-image: url(https://www.buildinganddecor.co.za/wp-content/uploads/2022/12/d-school_main.jpg);
+    background-repeat:space;
+    background-size: cover;
+  */
+}
+
+/* rgb(212,29,24) d-school reddish color
+  rgb(0,136,144)  blue-green ish
+  #070B51;        strong blue
+  #0B8B92    light blue
+  #F5AB33        light orange
+  #61CE70      light green
+   #54595F      grey
+  #7A7A7A        light grey
+*/

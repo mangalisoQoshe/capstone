@@ -1,0 +1,47 @@
+.chart {
+  margin-inline: auto;
+ background-color: rgba(62, 151, 235, 0.527);
+ 
+  border-radius: 0.3rem;
+  padding: 1rem;
+  text-align: left;
+  box-shadow: 8px 8px 8px black;
+
+}
+.chart-1 {
+  width: 50%;
+  margin-right: 1rem;
+  background-color: #212a3e;
+ 
+}
+
+.chart-2{
+  width: 50%;
+}
+.chart-settings{
+  position: relative;
+}
+.charts-container{
+  display: flex;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+ 
+}
+
+.form-btn {
+  cursor: pointer;
+  margin-top: 1.5rem; 
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border: 0.1rem solid rgb(0, 0, 0);
+  border-radius: 0.3rem;
+  font-weight: bold;
+
+}
+.form-btn:hover{
+  border-color: green;
+  color: white;
+  background-color:#212a3e;
+  border: 0.1rem solid rgb(0, 0, 0);
+}

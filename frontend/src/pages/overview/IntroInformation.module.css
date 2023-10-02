@@ -1,0 +1,76 @@
+
+
+.intro-Info-container {
+    border: 0.1rem solid #7a7a7a;
+    border-radius: 0.4rem;
+    margin-top: 0.1rem;
+    background-color: blanchedalmond;
+    height: 93vh;
+    text-align: center;
+    font-family: "OceansideTypewriter";
+    font-size: 1.5rem;
+    transition: all 1s ease-in-out;
+  }
+  
+  .dschool-logo {
+    width: 30%;
+    margin-inline: auto;
+    margin-block: 0.8rem;
+    border: 0.2rem solid #070b51;
+    border-radius: 0.4rem;
+    padding: 1.7rem 4rem;
+  }
+
+  .building-info{
+    background-color: #070b51;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .intro-container{
+    height: 50%;
+  }
+.video-feed{
+  height: 100%;
+  width: 100%;
+
+   
+}
+
+.info{
+    color: aliceblue;
+    text-align: left;
+    margin-left: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info h2{
+  text-align: center;
+}
+
+
+.link{
+  color: aliceblue;
+  font-weight: bold;
+}
+.link:hover{
+  color: #7a7a7a;
+}
+  @media screen and (min-width: 1367px) {
+    .intro-Info-container{
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+    }
+    .intro-title {
+      margin-top: 1rem;
+    }
+  
+    .dschool-logo {
+      margin-block: 2rem;
+    }
+  
+    .intro-title-2 {
+    }
+  }
+  

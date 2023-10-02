@@ -1,0 +1,99 @@
+/* fonts.css */
+@font-face {
+  font-family: 'Typewriter'; /* This should match the font name in the font file */
+  src: url('../../assets/Typewriter.ttf') format('truetype'),
+  url('../../assets/THE_JACATRA.otf') format('otf');
+    
+ 
+}
+
+@font-face {
+  font-family: 'The_JACATRA'; /* This should match the font name in the font file */
+  src:  url('../../assets/BackHome.otf') format('OpenType');
+  
+}
+.overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.charts-container {
+  height: 89vh;
+  
+}
+.insights-container{
+ 
+}
+
+.chart {
+  border: 0.1rem solid #7a7a7a;
+  border-radius: 0.4rem;
+  height: 49.5%;
+  margin: 0.5rem;
+}
+
+.data-insights {
+  border: 0.1rem solid #7a7a7a;
+  border-radius: 0.4rem;
+  margin: 0.5rem;
+  height: 49.5%;
+  background-color: rgba(0, 0, 255, 0.432);
+}
+
+.intro-container {
+  border: 0.1rem solid #7a7a7a;
+  border-radius: 0.4rem;
+  margin: 0.5rem;
+  background-color: blanchedalmond;
+  height: 49.5%;
+  text-align: center;
+}
+
+.intro-title {
+  margin-top: 0.5rem;
+  font-family: "Typewriter";
+
+  font-size: 30px;
+}
+
+.intro-title-2 {
+  font-size: 26px;
+  letter-spacing: 0.2rem;
+  font-family: "The_JACATRA";
+  margin-top: 3rem;
+ 
+}
+
+.dschool-logo {
+  width: 50%;
+  margin-inline: auto;
+  margin-block: 1rem;
+  border: 0.2rem solid #070b51;
+  border-radius: 0.4rem;
+  padding: 1.7rem 4rem;
+}
+
+@media screen and (min-width: 1367px) {
+  .intro-title {
+    font-size: 40px;
+  }
+  
+  .intro-title-2 {
+    font-size: 37px;
+    letter-spacing: 0.2rem;
+
+   
+  }
+  .intro-title {
+    margin-top: 1rem;
+   
+  }
+
+  .dschool-logo {
+    margin-block: 4rem;
+  }
+
+  .intro-title-2 {
+    
+  }
+}
+

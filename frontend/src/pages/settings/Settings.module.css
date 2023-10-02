@@ -1,0 +1,68 @@
+.settings {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #212a3e;
+  text-align: center;
+  height: 100vh;
+  color: aliceblue;
+}
+.filter-label {
+  display: inline-block;
+}
+
+.btn-container {
+}
+.btn {
+  cursor: pointer;
+  border: 0.1rem solid rgb(0, 0, 0);
+  border-radius: 0.4rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.btn:hover {
+  border-color: green;
+  color: white;
+  background-color: #212a3e;
+  border: 0.1rem solid rgb(0, 0, 0);
+}
+
+.disabled-btn {
+  cursor: not-allowed;
+  background-color: #ccc;
+  border-radius: 0.4rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.chart-settings {
+  background-color: #212a3e;
+  border-radius: 0.3rem;
+}
+.settings-input {
+  padding-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.charts-container {
+  border: 0.1rem solid rgba(0, 0, 0, 0.226);
+  box-shadow: 3px 1px 1px black;
+  border-radius: 0.3rem;
+  margin-inline: 1rem;
+  padding-block: 1rem;
+  max-width: 1500px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chart-settings h3 {
+  color: aliceblue;
+  margin-top: 1rem;
+}
+
+.form.btn {
+  margin-left: 0.5rem;
+  background-color: aqua;
+}

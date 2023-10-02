@@ -1,0 +1,54 @@
+.filter {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+  background-color: hsla(224, 44%, 56%, 0.445);
+  padding: 1rem;
+  border-width: 0.1rem;
+  border-radius: 0.5rem;
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label{
+  margin-right: 2rem;
+  font-weight: bold;
+}
+
+.btn {
+  cursor: pointer;
+  border: 0.1rem solid rgb(0, 0, 0);
+  border-radius: 0.4rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+.btn:hover{
+  border-color: green;
+  color: white;
+  background-color:#212a3e;
+  border: 0.1rem solid rgb(0, 0, 0);
+}
+
+.disabled-btn{
+  cursor: not-allowed;
+  background-color: #ccc;
+  border-radius: 0.4rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.dropdown{
+  cursor: pointer;
+  border: 0.1rem solid rgb(0, 0, 0);
+  border-radius: 0.4rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+
